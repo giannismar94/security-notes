@@ -61,6 +61,19 @@ So every UNION attack has three steps:
   test they can be found through `information_schema` (a catalog of all tables and
   columns in most databases), read with the same UNION technique.
 
+## Step 3b: two values in a single column
+- Problem: sometimes only ONE column accepts text, but I want both username and password.
+- Solution: concatenate the two values into one string, with a separator in between so I
+  can tell them apart.
+- The concatenation syntax depends on the database:
+  - PostgreSQL / Oracle: `username || '~' || password`
+  - MySQL: `CONCAT(username, '~', password)`
+- Example (PostgreSQL): `' UNION SELECT NULL, username || '~' || password FROM users--`
+  - Result in one column: `administrator~s3cr3t`
+- Pick a separator that will not appear in a password, e.g. `~`.
+- So: first find which database is running, then use the right concatenation syntax.
+- The `|` characters may need URL-encoding in the request (Burp Repeater: select, Cmd+U).
+
 ## OR 1=1 vs UNION
 - `OR 1=1` changes **which rows** the original query returns (all rows of the same table).
 - `UNION` changes **where the data comes from** (any other table).

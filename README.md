@@ -24,3 +24,4 @@ How I solved specific labs: what I noticed, what I tried, the payload, and the f
 | [SQL injection UNION attack — determining the number of columns](writeups/portswigger/sqli-union-number-of-columns.md) | PortSwigger | Practitioner | SQLi (UNION) |
 | [SQL injection UNION attack — finding a column containing text](writeups/portswigger/sqli-union-text-column.md) | PortSwigger | Practitioner | SQLi (UNION) |
 | [SQL injection UNION attack — retrieving data from other tables](writeups/portswigger/sqli-union-other-tables.md) | PortSwigger | Practitioner | SQLi (UNION) |
+| [SQL injection UNION attack — retrieving multiple values in a single column](writeups/portswigger/sqli-union-multiple-values-single-column.md) | PortSwigger | Practitioner | SQLi (UNION) |
