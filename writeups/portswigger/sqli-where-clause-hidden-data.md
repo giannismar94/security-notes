@@ -17,7 +17,6 @@ user can break out of the string and inject their own SQL.
   so the parameter is used to query the database.
 - Added a single quote: `category=Tech gifts'`. The server returned 500, which told me
   my input reaches the SQL query unescaped.
-- <something I tried that didn't work, or what confused me at first>
 
 ## How I exploited it
 - Entry point: the `category` parameter in `GET /filter?category=...`
