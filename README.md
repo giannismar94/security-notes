@@ -13,6 +13,7 @@ What I learn each day: theory, how things work, commands.
 | 02 | [Authentication, sessions, cookie flags, CSRF](notes/02-auth-sessions-cookies.md) |
 | 03 | [SQL injection UNION attacks](notes/03-sqli-union.md) |
 | 04 | [SQL injection — examining the database](notes/04-sqli-examining-database.md) |
+| 05 | [SQL injection — bypassing filters (WAF)](notes/05-sqli-filter-bypass.md) |
 
 ## Writeups
 
@@ -30,3 +31,4 @@ How I solved specific labs: what I noticed, what I tried, the payload, and the f
 | 08 | [SQL injection — querying the database version (MySQL/Microsoft)](writeups/portswigger/08-sqli-examining-db-version-mysql-microsoft.md) | PortSwigger | Practitioner | SQLi (examining DB) |
 | 09 | [SQL injection — listing database contents (non-Oracle)](writeups/portswigger/09-sqli-listing-contents-non-oracle.md) | PortSwigger | Practitioner | SQLi (examining DB) |
 | 10 | [SQL injection — listing database contents (Oracle)](writeups/portswigger/10-sqli-listing-contents-oracle.md) | PortSwigger | Practitioner | SQLi (examining DB) |
+| 11 | [SQL injection — filter bypass via XML encoding](writeups/portswigger/11-sqli-filter-bypass-xml-encoding.md) | PortSwigger | Practitioner | SQLi (WAF bypass) |
