@@ -15,6 +15,7 @@ What I learn each day: theory, how things work, commands.
 | 04 | [SQL injection — examining the database](notes/04-sqli-examining-database.md) |
 | 05 | [SQL injection — bypassing filters (WAF)](notes/05-sqli-filter-bypass.md) |
 | 06 | [Blind SQL injection — conditional responses](notes/06-sqli-blind.md) |
+| 07 | [Blind SQL injection — conditional errors](notes/07-sqli-blind-errors.md) |
 
 ## Writeups
 
@@ -34,3 +35,4 @@ How I solved specific labs: what I noticed, what I tried, the payload, and the f
 | 10 | [SQL injection — listing database contents (Oracle)](writeups/portswigger/10-sqli-listing-contents-oracle.md) | PortSwigger | Practitioner | SQLi (examining DB) |
 | 11 | [SQL injection — filter bypass via XML encoding](writeups/portswigger/11-sqli-filter-bypass-xml-encoding.md) | PortSwigger | Practitioner | SQLi (WAF bypass) |
 | 12 | [Blind SQL injection with conditional responses](writeups/portswigger/12-sqli-blind-conditional-responses.md) | PortSwigger | Practitioner | SQLi (blind) |
+| 13 | [Blind SQL injection with conditional errors](writeups/portswigger/13-sqli-blind-conditional-errors.md) | PortSwigger | Practitioner | SQLi (blind) |
